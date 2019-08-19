@@ -18,14 +18,6 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-You should create one R script called run_analysis.R that does the following.
 
-Merges the training and the test sets to create one data set. 
-Extracts only the measurements on the mean and standard deviation for each measurement. 
-Uses descriptive activity names to name the activities in the data set. 
-Appropriately labels the data set with descriptive variable names. 
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-##Repo Overview This project contains R script file (run_analysis.R) that implements methods from Getting and Cleaning Data Course in order to make tidy data from raw data. The final data can be used for future analysis as it has labels and full description in the CodeBook file. CodeBook.md describes the variables, the data, and any transformations or work that was performed to clean up the data. The output file of the sctipt is called avg_by_act_sub.txt, and uploaded in the course project's data folder.
-##Working with R script You will need to make one modification to R script before you can start work with it. In the second line of run_analysis.r script you should set your working directory.
+##Repo Overview This project contains full description in the CodeBook file. CodeBook.md describes the variables, the data, and any transformations or work that was performed to clean up the data. The output file of the sctipt is called FinalData.txt, and uploaded in the course project's data folder.
 ##Data Description You can find additional information about the variables, data and transformations in the CodeBook.MD file.
